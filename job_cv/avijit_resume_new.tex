@@ -1,0 +1,172 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+% 1940 Westbury Avenue, Basement Suite, V2S1C1, Abbotsford, BC -> Abbotsford, BC, Canada
+% 66 Cornell Avenue Scarborough, Toronto -> Scarborough, Toronto, Canada
+% Saskatoon, Canada
+% Set applicant's personal data for header
+\name{Avijit Bhattacharjee}
+\address{Abbotsford, BC, Canada \linebreak
+avijit.bhattacharjee@usask.ca \linebreak
+(306) 713-9512}
+\contacts{
+\url{https://www.linkedin.com/in/avijit-bhattacharjee/}
+\linebreak
+\url{https://github.com/avijit1258}
+}
+
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{University of Saskatchewan}{}{DEC 2020 (expected)}
+			\begin{itemize}
+				\item \emph{M.Sc.} Computer Science, CGPA: 90.25\%
+				% \item Graduate Coursework: Intelligent Systems Design; Automated Software Engineering; Human Driven Software Engineering for Scientific Workflow; Advanced Software Engineering.
+				
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Khulna University}{}{ 2018}
+			\begin{itemize}
+				\item \emph{B.Sc.} Computer Science \& Engineering, CGPA: 3.74 / 4.0
+				% \item Undergraduate Coursework: Artificial Intelligence; Pattern Recognition; Data Warehousing and Mining; Information Security and Control; Computer Graphics; Compiler Design; Digital Image Processing; Database Systems; Algorithms; Assembly Language.
+				
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Employment}
+	
+	    \begin{cvsubsection}{Software Engineer (part-time)}{}{JAN 2020 - Present}
+	    \emph{Saskatchewan Education Leadership Unit}\\
+	    Placement Application \href{https://placement.usask.ca}{link}
+    	    \begin{itemize}
+    	        \item Upgraded web server from nginx to apache and modified codebase accordingly.
+    	        \item Converted NoSQL based documents to MySQL based tables and migrated previous data to new MySQL based database.
+    	        \item Structured development workflow by setting up independent development and production server.
+    	        \item Fixed all deprecated functions in admin part due to change of database from NoSQL to MySQL based.
+    	        \item Implemented secured forget password functionality.
+    	        \item Technologies: Python, Flask, mongoDB, Apache, mariaDB
+    	         
+    	        
+    	    \end{itemize}
+    	
+    	\end{cvsubsection}
+    	
+    		\begin{cvsubsection}{Core CS Team Member (GWF)}{}{JAN 2019 - Present}
+    		\emph{University of Saskatchewan}\\
+    		Nutrient Application \href{https://gwf.usask.ca/projects-facilities/nutrient-app.php#Overview}{ link }
+    	    \begin{itemize}
+    	        \item Developed REST API for 
+    	        Nutrient Application to retrieve and store data in university owned database. 
+    	        \item Technologies: Python, Flask, Postgres
+    	        \item Implemented GEO map for the website of Nutrient app which shows Nitrate, Phosphate concentration at different Geo-location using the data from the REST API before-mentioned. \href{https://gwf.usask.ca/projects-facilities/nutrient-app.php#ViewYourMeasurements}{link}
+    	        \item Technologies: HTML, CSS, Jquery, leafletjs
+    	        
+    	    \end{itemize}
+    	
+        \end{cvsubsection}
+	
+    	\begin{cvsubsection}{Software Engineer Intern}{}{FEB 2017}
+    	\emph{Trustaira Bangladesh Limited}
+    	    \begin{itemize}
+    	        \item Implemented a prototype in order to analyze sentiment in Bangla language text written using English characters. \href{https://techfoxweb.wordpress.com/2017/07/24/banglish-sentiment-analysis/}{link}
+    	        \item Technologies: Python, pyAvroPhonetic, TextBlob, vaderSentiment 
+    	        
+    	    \end{itemize}
+    	
+    	\end{cvsubsection}
+    	
+    
+        
+        % \begin{cvsubsection}{Graduate Teaching Assistant}{University of Saskatchewan}{Fall 2019--Present}
+    	   % \begin{itemize}
+    	   %     \item In fall 2019, I was marker of Introduction to Programming(Python) course. My duty was to grade assignments, midterm and final papers.
+    	        
+    	   % \end{itemize}
+    	
+        % \end{cvsubsection}
+	
+	
+	
+	\end{cvsection}
+	
+	
+	\begin{cvsection}{Projects}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+			 %   \item \textbf{Website for Margin Med} (2020).
+			 %   Developed an responsive static website for Margin Med which is an startup company providing medical care for rural people. \texttt{Html, Css, Bootstrap} \href{https://marginmed.com/#}{\faExternalLink}
+			 
+			 \item \textbf{#healthTrend} (2020). Developed a web application which analyzes tweets according to trending health topics and peoples sentiment toward the topic and provides summary. \emph{Python, Flask, Twitter API, gensim, spaCy, NLP}
+			
+			  \item \textbf{Online Admission Test Registration System} (2017). 
+				Developed a web based application for admission test registration to get admission at Khulna University. \emph{PHP , MySQL, JQuery, Bootstrap}
+				
+				\item \textbf{PMS (Project Management Software Like Trello) } (2017). Developed a project management system like Trello which can be used by developers to add, update stories, assign tasks to others, change status in the dashboard and many other facilities.  \emph{Laravel, PHP, Html, Css, Javascript}
+				
+				\item \textbf{PIGEON (Online Bus Ticket Booking System)} (2016). Developed a web application which can be used to manage ticket selling of Bus service providers. \emph{PHP, Laravel, Javascript, Html, Bootstrap}
+				
+				% \item \textbf{TouchTypeMaster (Touch typing learning tool for windows)} (2015). Built an windows based desktop application which will help users to practice touch typing by tracking progress, teasing tests and interactive feedbacks. C\#
+				
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	
+% 	\begin{cvsection}{Additional Experience and Awards}
+% 		\begin{cvsubsection}{}{}{}	
+% 			\begin{itemize}
+% 				\item \textbf{Deans Merit Scholarship (2015 – 2018):} 
+% 				This scholarship is provided to students of Khulna University who secure merit position in final exams.
+% 				\item \textbf{Department Teaching Scholarship(2019-Present):} Receiving scholarship from CS department of University of Saskatchewan as Graduate teaching assistant.
+% 			\end{itemize}
+% 		\end{cvsubsection}
+		
+		
+% 	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Language: Python, C++, Java, JavaScript
+				\item Technologies: Flask, Node.js, Laravel, Bootstrap, AWS, MySQL, Postgres
+				\item Others: REST api, microservices
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	
+\end{document}
